@@ -175,7 +175,7 @@ switch:
 Also i have added automatization for ON/ OFF my main source of heating with condition if there are any general termostat heationg or not.
 
 <img align="right" src="https://github.com/cipector/esphome_zone_thermostats_underfloor_heating/blob/main/HA.png?raw=true">
-<img align="right" src="https://github.com/cipector/esphome_zone_thermostats_underfloor_heating/blob/main/ha2.png?raw=true">
+<img align="right" src="https://github.com/cipector/esphome_zone_thermostats_underfloor_heating/blob/main/ha2.PNG?raw=true">
 
 ## Configuration.yaml 
 
