@@ -235,30 +235,5 @@ climate:
     initial_hvac_mode: "off"
     away_temp: 18
     
-  - platform: generic_thermostat
-    name: "Udirna_topeni"
-    heater: switch.udirna_virtual
-    target_sensor: sensor.Udirna_teplota_2
-    min_temp: 0
-    max_temp: 100
-    cold_tolerance: 1
-    hot_tolerance: 0
-    ac_mode: false
-    precision: 1
-    initial_hvac_mode: "off"
-    away_temp: 0
-
-  - platform: generic_thermostat
-    name: "Maso_topeni"
-    heater: switch.maso_virtual
-    target_sensor: sensor.Maso_teplota_2
-    min_temp: 0
-    max_temp: 100
-    cold_tolerance: 1
-    hot_tolerance: 0
-    ac_mode: false
-    precision: 1
-    initial_hvac_mode: "off"
-    away_temp: 0
     
   ```
