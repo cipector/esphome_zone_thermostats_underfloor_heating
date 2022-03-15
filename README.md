@@ -54,6 +54,11 @@ sensor:
           # Map 0.0 (from sensor) to 0.0 (true value)
           - 0.0 -> 0.0
           - 18.5 -> 20.6
+    
+  - platform: dallas
+    address: 0xe53c01e0761c4873
+    name: "Rozvadec_teplota"
+    accuracy_decimals: 2
 
 i2c:
   sda: GPIO4
