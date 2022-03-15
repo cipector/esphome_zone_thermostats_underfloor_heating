@@ -169,3 +169,6 @@ switch:
       inverted: true
 
 ```
+
+# Home Assistant
+<img align="right" src="https://github.com/cipector/esphome_zone_thermostats_underfloor_heating/blob/main/HA.png?raw=true">
