@@ -171,4 +171,94 @@ switch:
 ```
 
 # Home Assistant
+
+Also i have added automatization for ON/ OFF my main source of heating with condition if there are any general termostat heationg or not.
+
 <img align="right" src="https://github.com/cipector/esphome_zone_thermostats_underfloor_heating/blob/main/HA.png?raw=true">
+
+## Configuration.yaml 
+
+add general thermostats
+
+```
+climate:
+  - platform: generic_thermostat
+    name: "Obyvak_topeni"
+    heater: switch.podlahovka_obyvak1
+    target_sensor: sensor.Obyvak_teplota
+    min_temp: 16
+    max_temp: 25
+    cold_tolerance: 0.2
+    hot_tolerance: 0
+    ac_mode: false
+    precision: 0.1
+    initial_hvac_mode: "off"
+    away_temp: 18
+
+    
+  - platform: generic_thermostat
+    name: "Kuchyn_topeni"
+    heater: switch.podlahovka_kuchyn
+    target_sensor: sensor.Kuchyn_teplota
+    min_temp: 16
+    max_temp: 25
+    cold_tolerance: 0.2
+    hot_tolerance: 0
+    ac_mode: false
+    precision: 0.1
+    initial_hvac_mode: "off"
+    away_temp: 18
+
+  - platform: generic_thermostat
+    name: "Predsin_topeni"
+    heater: switch.podlahovka_predsin
+    target_sensor: sensor.Predsin_teplota
+    min_temp: 16
+    max_temp: 25
+    cold_tolerance: 0.2
+    hot_tolerance: 0
+    ac_mode: false
+    precision: 0.1
+    initial_hvac_mode: "off"
+    away_temp: 18
+    
+  - platform: generic_thermostat
+    name: "Koupelna_topeni"
+    heater: switch.podlahovka_koupelna
+    target_sensor: sensor.Zachod_teplota
+    min_temp: 16
+    max_temp: 25
+    cold_tolerance: 0.2
+    hot_tolerance: 0
+    ac_mode: false
+    precision: 0.1
+    initial_hvac_mode: "off"
+    away_temp: 18
+    
+  - platform: generic_thermostat
+    name: "Udirna_topeni"
+    heater: switch.udirna_virtual
+    target_sensor: sensor.Udirna_teplota_2
+    min_temp: 0
+    max_temp: 100
+    cold_tolerance: 1
+    hot_tolerance: 0
+    ac_mode: false
+    precision: 1
+    initial_hvac_mode: "off"
+    away_temp: 0
+
+  - platform: generic_thermostat
+    name: "Maso_topeni"
+    heater: switch.maso_virtual
+    target_sensor: sensor.Maso_teplota_2
+    min_temp: 0
+    max_temp: 100
+    cold_tolerance: 1
+    hot_tolerance: 0
+    ac_mode: false
+    precision: 1
+    initial_hvac_mode: "off"
+    away_temp: 0
+    
+  ```
