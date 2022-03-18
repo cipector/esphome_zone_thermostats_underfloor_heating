@@ -6,7 +6,7 @@ I integrate it to Home Assistat and control it from there
 <img align="right" src="https://github.com/cipector/esphome_zone_thermostats_underfloor_heating/blob/main/schema.png?raw=true">
 
 # Part list 
- - wemos d1 mini - https://www.hadex.cz/m430j-modul-wemos-d1-mini-wifi-esp8266/
+ - wemos d1 mini - [SHOP](https://www.hadex.cz/m430j-modul-wemos-d1-mini-wifi-esp8266/)
  - DS18B20 2x - https://www.hadex.cz/r255-teplotni-sonda-ds18b20-100cm/
  - 8x SSR relay - https://www.hadex.cz/m528d-modul-rele-ssr-8x-napajeni-5v-s-optoclenem-hy-m281/
  - 5x 230V NO thermostat actuator - https://www.aliexpress.com/item/4000917735846.html?spm=a2g0o.order_list.0.0.21ef1802ZLEKRH
