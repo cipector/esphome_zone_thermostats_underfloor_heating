@@ -1,8 +1,9 @@
 # ESPhome - zone thermostats underfloor heating
 
 ## Description:
-wifi control (ON/OFF) valves of underfloor heating with pump
-I integrate it to Home Assistat and control it from there
+
+Wifi control (ON/OFF) valves of underfloor heating with pump.  
+I integrate it to Home Assistat and control it from there.  
 
 ## Scheme:
 <img align="right" src="https://github.com/cipector/esphome_zone_thermostats_underfloor_heating/blob/main/schema.png?raw=true">
