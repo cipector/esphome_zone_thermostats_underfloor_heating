@@ -1,11 +1,13 @@
-# esphome_zone_thermostats_underfloor_heating
+# ESPhome - zone thermostats underfloor heating
+
+# Description:
 wifi control (ON/OFF) valves of underfloor heating with pump
 I integrate it to Home Assistat and control it from there
 
-# Scheme
+# Scheme:
 <img align="right" src="https://github.com/cipector/esphome_zone_thermostats_underfloor_heating/blob/main/schema.png?raw=true">
 
-# Part list 
+# Part list:
  - wemos d1 mini - [SHOP](https://www.hadex.cz/m430j-modul-wemos-d1-mini-wifi-esp8266/)
  - DS18B20 2x - [SHOP](https://www.hadex.cz/r255-teplotni-sonda-ds18b20-100cm/)
  - 8x SSR relay - [SHOP](https://www.hadex.cz/m528d-modul-rele-ssr-8x-napajeni-5v-s-optoclenem-hy-m281/)
@@ -13,7 +15,7 @@ I integrate it to Home Assistat and control it from there
  - pump - i already had
  - MCP23017 - [SHOP](https://www.aliexpress.com/item/32865063393.html?spm=a2g0o.productlist.0.0.3e6b2ef1qsywrq&algo_pvid=828a1e78-167e-4242-8a6c-cba0782255e6&algo_exp_id=828a1e78-167e-4242-8a6c-cba0782255e6-11&pdp_ext_f=%7B%22sku_id%22%3A%2210000001800719023%22%7D&pdp_pi=-1%3B109.77%3B-1%3B-1%40salePrice%3BCZK%3Bsearch-mainSearch)
  
-# ESPHOME config
+# ESPHome config:
 
 ```
 esphome:
